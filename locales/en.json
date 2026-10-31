@@ -1,0 +1,94 @@
+{
+  "lang": "en",
+  "base": "/en",
+  "altBase": "",
+  "altLabel": "IT",
+  "altName": "Italiano",
+  "ogLocale": "en_GB",
+  "home": {
+    "title": "MCM Luxury Custom Palermo | Tuning, Wrapping & Supercars",
+    "description": "Mavira Charter Motorsport, Palermo (Sicily): supercar customisation, wrapping and PPF, Tubi Style exhausts, tuning, luxury car sales and rental."
+  },
+  "nav": { "services": "Services", "works": "Work", "about": "About", "contact": "Contact", "cta": "Get a quote" },
+  "hero": {
+    "kicker": "Officine MCM · Palermo, Sicily",
+    "h1": "Supercars, built to measure",
+    "lead": "Customisation, tuning and wrapping for sports and luxury cars. Every project is built in our workshop, piece by piece, with the obsessive care your car deserves.",
+    "cta1": "Request a quote",
+    "cta2": "See our work"
+  },
+  "stats": [
+    { "n": "Tubi Style", "l": "Authorised dealer" },
+    { "n": "Dyno", "l": "In-house power testing" },
+    { "n": "Bespoke", "l": "No two projects alike" }
+  ],
+  "services": {
+    "kicker": "What we do",
+    "h2": "Services",
+    "items": [
+      { "img": "kit", "t": "Customisation & body kits", "d": "Body kits, aero, wheels and styling details designed around each car. From the Porsche 996 to the Ferrari F430, complete transformations." },
+      { "img": "gla", "t": "Wrapping & PPF", "d": "Gloss, matte, satin or titanium car wraps and paint protection film, including carbon PPF. A reversible new look with protected paintwork." },
+      { "img": "scarichi", "t": "Tubi Style exhausts", "d": "We are an authorised Tubi Style dealer: racing exhaust systems for Porsche, Ferrari, Maserati, Lamborghini and more." },
+      { "img": "stage1", "t": "Tuning & dyno testing", "d": "Stage 1 and power upgrades verified on the dyno. Measured performance, not promises." },
+      { "img": "lusso", "t": "Supercar sales", "d": "Selected sports and luxury cars, some already customised in our workshop. Ask us what is available now." },
+      { "img": "passione", "t": "Luxury car rental", "d": "Rent a supercar for an event, a wedding, a photo shoot or simply for the pleasure of driving it." }
+    ]
+  },
+  "works": {
+    "kicker": "From the workshop",
+    "h2": "Recent work",
+    "lead": "A few projects that left Officine MCM. More every week on Instagram.",
+    "follow": "Follow us on Instagram",
+    "items": [
+      { "img": "gt3", "t": "Porsche 911 GT3 992 · Tubi Style upgrade" },
+      { "img": "serie1", "t": "BMW 1 Series · New look" },
+      { "img": "ppf", "t": "Bonnet with carbon PPF" },
+      { "img": "maserati", "t": "Maserati GranTurismo S · Custom" },
+      { "img": "p996", "t": "Porsche 996 · Body kit" },
+      { "img": "f430", "t": "Ferrari F430 Scuderia" },
+      { "img": "turbos", "t": "Porsche Turbo S · TechArt-style replica" },
+      { "img": "urus", "t": "Lamborghini Urus · Tubi Style exhaust" },
+      { "img": "custom", "t": "Mercedes · Wrapping in progress" },
+      { "img": "bestiolina", "t": "Ford Mustang · Customisation" },
+      { "img": "officina", "t": "Ferrari in the workshop" },
+      { "img": "consegna", "t": "Jaguar F-Type · Delivered" }
+    ]
+  },
+  "about": {
+    "kicker": "MCM · Mavira Charter Motorsport",
+    "h2": "Custom is in our DNA",
+    "p1": "MCM stands for Mavira Charter Motorsport: a workshop in Palermo born from a passion for sports cars and luxury tuning. Here every car is treated as a one-off.",
+    "p2": "We work on supercars, SUVs and sports cars of every make: from styling to mechanics, from choosing materials to final delivery. We attend the main car meets and motorsport events and work with brands such as Tubi Style.",
+    "quote": "Passion that becomes obsession."
+  },
+  "contact": {
+    "kicker": "Let's talk",
+    "h2": "Contact",
+    "lead": "Tell us about your project and we will reply with a tailored proposal.",
+    "address": "Address",
+    "phone": "Phone",
+    "whatsapp": "Message us on WhatsApp",
+    "waText": "Hi MCM, I would like a quote for",
+    "email": "Email",
+    "maps": "Open in Google Maps",
+    "social": "Social"
+  },
+  "footer": {
+    "tagline": "Supercar customisation, tuning and wrapping in Palermo.",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy",
+    "manage": "Manage cookies",
+    "rights": "All rights reserved."
+  },
+  "consent": {
+    "text": "We use technical cookies required for the site to work and, only with your consent, statistics cookies (Google Analytics) to understand how it is used.",
+    "accept": "Accept all",
+    "reject": "Reject",
+    "customize": "Customise",
+    "save": "Save preferences",
+    "necessary": "Technical (always on)",
+    "statistics": "Statistics (Google Analytics 4)",
+    "title": "Cookie preferences"
+  }
+}

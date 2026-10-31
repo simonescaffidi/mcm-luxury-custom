@@ -1,0 +1,94 @@
+{
+  "lang": "it",
+  "base": "",
+  "altBase": "/en",
+  "altLabel": "EN",
+  "altName": "English",
+  "ogLocale": "it_IT",
+  "home": {
+    "title": "MCM Luxury Custom Palermo | Tuning, Wrapping e Supercar",
+    "description": "Mavira Charter Motorsport, Palermo: customizzazione supercar, wrapping e PPF, scarichi Tubi Style, elaborazioni, vendita e noleggio auto di lusso."
+  },
+  "nav": { "services": "Servizi", "works": "Lavori", "about": "Chi siamo", "contact": "Contatti", "cta": "Preventivo" },
+  "hero": {
+    "kicker": "Officine MCM · Palermo",
+    "h1": "Supercar realizzate su misura",
+    "lead": "Customizzazione, tuning e wrapping per auto sportive e di lusso. Ogni progetto nasce in officina, pezzo per pezzo, con la maniacalità che il tuo mezzo merita.",
+    "cta1": "Richiedi un preventivo",
+    "cta2": "Guarda i lavori"
+  },
+  "stats": [
+    { "n": "Tubi Style", "l": "Rivenditore autorizzato" },
+    { "n": "Banco prova", "l": "Test di potenza in sede" },
+    { "n": "Su misura", "l": "Nessun progetto uguale" }
+  ],
+  "services": {
+    "kicker": "Cosa facciamo",
+    "h2": "Servizi",
+    "items": [
+      { "img": "kit", "t": "Customizzazione e body kit", "d": "Kit carrozzeria, aerodinamica, cerchi e dettagli estetici studiati sul singolo veicolo. Dalla Porsche 996 alla Ferrari F430, trasformazioni complete." },
+      { "img": "gla", "t": "Wrapping e PPF", "d": "Car wrapping in tinta, opaco, satinato o titanio e pellicole protettive PPF, anche in carbonio. Cambio look reversibile, carrozzeria protetta." },
+      { "img": "scarichi", "t": "Scarichi Tubi Style", "d": "Siamo rivenditori autorizzati Tubi Style: impianti di scarico racing per Porsche, Ferrari, Maserati, Lamborghini e altre sportive." },
+      { "img": "stage1", "t": "Elaborazioni e banco prova", "d": "Stage 1 e upgrade di potenza con verifica al banco prova. Prestazioni misurate, non promesse." },
+      { "img": "lusso", "t": "Vendita supercar", "d": "Auto sportive e di lusso selezionate, anche già personalizzate dalle nostre officine. Chiedici cosa è disponibile ora." },
+      { "img": "passione", "t": "Noleggio auto di lusso", "d": "Noleggia una supercar per un evento, un matrimonio, un servizio fotografico o semplicemente per il piacere di guidarla." }
+    ]
+  },
+  "works": {
+    "kicker": "Dall'officina",
+    "h2": "Lavori recenti",
+    "lead": "Alcuni dei progetti usciti dalle Officine MCM. Altri ogni settimana su Instagram.",
+    "follow": "Seguici su Instagram",
+    "items": [
+      { "img": "gt3", "t": "Porsche 911 GT3 992 · Upgrade Tubi Style" },
+      { "img": "serie1", "t": "BMW Serie 1 · Cambio look" },
+      { "img": "ppf", "t": "Cofano con PPF in carbonio" },
+      { "img": "maserati", "t": "Maserati GranTurismo S · Custom" },
+      { "img": "p996", "t": "Porsche 996 · Body kit" },
+      { "img": "f430", "t": "Ferrari F430 Scuderia" },
+      { "img": "turbos", "t": "Porsche Turbo S · Replica stile TechArt" },
+      { "img": "urus", "t": "Lamborghini Urus · Scarico Tubi Style" },
+      { "img": "custom", "t": "Mercedes · Wrapping in officina" },
+      { "img": "bestiolina", "t": "Ford Mustang · Customizzazione" },
+      { "img": "officina", "t": "Ferrari in lavorazione" },
+      { "img": "consegna", "t": "Jaguar F-Type · Consegnata al cliente" }
+    ]
+  },
+  "about": {
+    "kicker": "MCM · Mavira Charter Motorsport",
+    "h2": "Il Custom nel DNA",
+    "p1": "MCM è l'acronimo di Mavira Charter Motorsport: un'officina di Palermo nata dalla passione per le auto sportive e il tuning di lusso. Qui ogni vettura viene trattata come un pezzo unico.",
+    "p2": "Lavoriamo su supercar, SUV e sportive di ogni marca: dall'estetica alla meccanica, dalla scelta dei materiali alla consegna. Siamo presenti nei principali raduni ed eventi motoristici e collaboriamo con marchi come Tubi Style.",
+    "quote": "La passione che crea ossessione."
+  },
+  "contact": {
+    "kicker": "Parliamone",
+    "h2": "Contatti",
+    "lead": "Raccontaci il tuo progetto: ti rispondiamo con una proposta su misura.",
+    "address": "Indirizzo",
+    "phone": "Telefono",
+    "whatsapp": "Scrivici su WhatsApp",
+    "waText": "Ciao MCM, vorrei un preventivo per",
+    "email": "Email",
+    "maps": "Apri in Google Maps",
+    "social": "Social"
+  },
+  "footer": {
+    "tagline": "Customizzazione, tuning e wrapping di supercar a Palermo.",
+    "legal": "Note legali",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy",
+    "manage": "Gestisci cookie",
+    "rights": "Tutti i diritti riservati."
+  },
+  "consent": {
+    "text": "Usiamo cookie tecnici necessari al funzionamento del sito e, solo con il tuo consenso, cookie statistici (Google Analytics) per capire come viene usato.",
+    "accept": "Accetta tutti",
+    "reject": "Rifiuta",
+    "customize": "Personalizza",
+    "save": "Salva preferenze",
+    "necessary": "Tecnici (sempre attivi)",
+    "statistics": "Statistici (Google Analytics 4)",
+    "title": "Preferenze cookie"
+  }
+}

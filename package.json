@@ -1,0 +1,22 @@
+{
+  "name": "mcm-luxury-custom",
+  "version": "1.0.0",
+  "description": "Sito vetrina MCM Luxury Custom – Mavira Charter Motorsport (Palermo)",
+  "main": "server.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node server.js",
+    "migrate": "echo \"nessun database\"",
+    "test": "node --test"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^5.3.0",
+    "helmet": "^8.3.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {}
+}

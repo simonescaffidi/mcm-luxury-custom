@@ -1,0 +1,21 @@
+name: Uptime
+on:
+  schedule: [{ cron: '*/30 * * * *' }]
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Health check
+        run: |
+          URL="${{ vars.SITE_URL || 'https://www.mavirachartermotorsport.com' }}/health"
+          for i in 1 2 3; do curl -fsS --max-time 20 "$URL" && exit 0; sleep 20; done; exit 1
+      - name: Alert email
+        if: failure()
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          MAIL_FROM_EMAIL: ${{ vars.MAIL_FROM_EMAIL }}
+        run: |
+          curl -sS -X POST https://api.brevo.com/v3/smtp/email \
+            -H "api-key: $BREVO_API_KEY" -H 'Content-Type: application/json' \
+            -d "{\"sender\":{\"email\":\"$MAIL_FROM_EMAIL\",\"name\":\"Monitor MCM\"},\"to\":[{\"email\":\"info@simonescaffidi.it\"}],\"subject\":\"[ALERT] mcm-luxury-custom – sito non raggiungibile\",\"textContent\":\"Health check fallito: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}"
