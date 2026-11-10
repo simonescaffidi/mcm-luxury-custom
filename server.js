@@ -10,6 +10,9 @@ const PUB = path.join(__dirname, 'public');
 const PORT = process.env.PORT || 3000;
 const GA4 = (process.env.GA4_ID || '').trim();
 const GSC = (process.env.GSC_VERIFICATION || '').trim();
+// URL di build sostituito a runtime con PUBLIC_URL (canonical, hreflang, og, sitemap)
+const BUILD_URL = 'https://www.mavirachartermotorsport.com';
+const SITE_URL = (process.env.PUBLIC_URL || BUILD_URL).replace(/\/$/, '');
 const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 app.disable('x-powered-by');
@@ -51,7 +54,7 @@ function pagina(file) {
     GSC ? `<meta name="google-site-verification" content="${esc(GSC)}">` : '',
     GA4 ? `<meta name="ga4-id" content="${esc(GA4)}">` : '',
   ].filter(Boolean).join('\n  ');
-  html = html.replace('<!--GSC-->', meta);
+  html = html.replace('<!--GSC-->', meta).split(BUILD_URL).join(SITE_URL);
   cache.set(file, html);
   return html;
 }
@@ -69,6 +72,13 @@ app.use((req, res, next) => {
   res.set('Cache-Control', 'public, max-age=300');
   res.type('html').send(pagina(file));
 });
+
+for (const f of ['sitemap.xml', 'robots.txt']) {
+  app.get(`/${f}`, (req, res) => {
+    res.type(f.endsWith('.xml') ? 'application/xml' : 'text/plain')
+      .send(fs.readFileSync(path.join(PUB, f), 'utf8').split(BUILD_URL).join(SITE_URL));
+  });
+}
 
 app.use(express.static(PUB, { maxAge: '7d', index: false }));
 
